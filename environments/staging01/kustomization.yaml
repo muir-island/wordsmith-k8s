@@ -7,7 +7,8 @@ images:
   - name: bretfisher/wordsmith-api
     newTag: latest
   - name: bretfisher/wordsmith-web
-    newTag: latest
+    newName: ghcr.io/muir-island/wordsmith-web
+    newTag: stable-20230719-efb9e4c
 configMapGenerator:
   - name: db-schema
     files:
